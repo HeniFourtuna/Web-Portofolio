@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Heni Fourtunaningtyas</title>
+    <link rel="stylesheet" href="stypo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="menu-toggle">&#9776;</div>
+        <div class="container">
+            <div class="logo">
+                <h1>HF</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero reveal" id="hero">
+        <div class="container reveal">
+            <div class="left">
+                <h1 class="fade-in">Hello, I'm Heni</h1>
+                <p class="fade-in-delay1">
+                    A 3rd semester student of the Informatics Study Program, Faculty of Computer Science, University of Jember.
+                </p>
+                <button><a href="webporto/heni cv.pdf" download class="btn">Download CV</a></button>
+                <button><a href="#contact" class="btn">Contact Me</a></button>
+            </div>
+            <div class="right">
+                <img src="heni_proper-removebg-preview.png" alt="Heni Fourtunaningtyas" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <section class="about reveal" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Heni Fourtunaningtyas</h3>
+                    <p>Informatics Student | Tech Enthusiast</p>
+                    <p>Hello! I'm Heni Fourtunaningtyas and you can call me Heni.
+                        I am a student interested in programming, computer networking, and application development.
+                        I have experience in Python, C#, and PostgreSQL, and many more.
+                        I enjoy learning algorithms and problem-solving, and I always strive to create useful solutions through technology.</p>
+                </div>
+                <div class="about-committee">
+                    <h3>Committee Experience</h3>
+                    <p class="committee-text">
+                        I'm an active member of Unit Kegiatan Mahasiswa Olahraga MACO (UKM-O MACO). 
+                        I have participated in several committees, as listed below.
+                    </p>
+                    <ul class="committee-list">
+                        <li class="committee-item">
+                            <h4>PKKMB 2025</h4>
+                            <img src="pkkmb 2025.jpg" alt="PKKMB 2025 FASILKOM UNEJ">
+                            <p class="desc">Part of the PKKMB FASILKOM UNEJ 2025 as a member of the secretariat division</p>
+                        </li>
+                        <li class="committee-item">
+                            <h4>Makrab UKM-O MACO 2025</h4>
+                            <img src="makarab maco 25.jpg" alt="MAKRAB UKM-O MACO 2025">
+                            <p class="desc">Part of the Makrab UKM-O MACO 2025 as a treasurer</p>
+                        </li>
+                        <li class="committee-item">
+                            <h4>SISFO CUP 2025</h4>
+                            <img src="sisfo cup 25.jpg" alt="SISFO CUP 2025">
+                            <p class="desc">Part of the SISFO CUP 2025 as a secretary</p>
+                        </li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills reveal" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li><i class="fa-brands fa-html5"></i> HTML</li>
+                    <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                    <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                    <li><i class="fa-brands fa-python"></i> Python</li>
+                    <li><i class="fa-brands fa-microsoft"></i> C#</li>
+                    <li><i class="fa-solid fa-database"></i> PostgreSQL</li>
+                    <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+                </ul>
+        </div>
+    </section>
+
+    <section class="project reveal" id="project">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Website Portofolio</h3>
+                    <img src="thumbnail web.png" alt="Website Portofolio">
+                    <p>Website ini merupakan project yang saya lakukan untuk memenuhi tugas dari mata kuliah Pemrograman Berbasis Website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact reveal" id="contact">
+        <div class="container">
+            <h2 class="fade-in">My Contact</h2>
+            <p class="fade-in-delay1"><i class="fas fa-envelope"></i>:<a href="#" onclick="copyEmail(event)">henifourtuna@gmail.com</a></p>
+            <p class="fade-in-delay2"><i class="fab fa-instagram"></i>:<a href="https://www.instagram.com/henifourtuna/">@henifourtuna</a></p>
+            <p class="fade-in-delay3"><i class="fab fa-linkedin"></i>:<a href="https://www.linkedin.com/in/heni-fourtunaningtyas-488846330/">Heni Fourtunaningtyas</a></p>
+            <p class="fade-in-delay4"><i class="fab fa-github"></i>:<a href="https://github.com/henifourtuna">henifourtuna</a></p>
+        </div>
+    </section>
+    <div id="copyAlert">Email copied to clipboard!</div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Heni Fourtunaningtyas. All rights reserved.</p>
+        </div>
+        
+<script src="jspor.js"></script>
+</body>
+</html>
